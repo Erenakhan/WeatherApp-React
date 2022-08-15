@@ -1,0 +1,51 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.App{
+  height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #0F3D3E;
+}
+.cardDiv{
+width: auto;
+height: auto;
+}
+
+.card{
+  float: left;
+  padding: 13px;
+  color: #ffff;
+} 
+
+.dropdown{
+width: auto;
+height: auto;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: #876445;
+border-radius: 6px;
+}
+
+.Dropdown-cardDiv{
+ width: auto;
+ height: auto;
+}
+
+.label option{
+  background-color: #876445;
+  color: #ffff;
+}
+
+.label select{
+
+  background-color: #324d6f;
+  border: solid;
+  border-radius: 6px;
+  color: #ffff;
+
+}
