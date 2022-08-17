@@ -18,13 +18,7 @@ function Weather (handleChange) {
   
     },[handleChange.handleChange]);
     console.log(weather)
-/* 
-     const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday","Monday"];
-    
-    for (let i = 1 ; i <days.length ; i++)
-    { const d = new Date();
-  let day = days[d.getDay()+i]; 
-    console.log(day)} */
+
       
   return (
     <div className='cardDiv'>
